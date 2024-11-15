@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUcheez</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="scripct.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1>GUcheez</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>Tentang Kami</h2>
+        <img src="foto/GUcheez.jpg" alt="kue skoyy" width="400px">
+        <p>Roti Bukan Bolu Bukan Gucheez Nanas Madu adalah salah satu oleh-oleh khas guci. Hidangan ini menggabungkan
+            kelezatan nanas segar dengan madu alami, menciptakan perpaduan rasa manis dan asam yang unik dan menggugah
+            selera. Nanas yang digunakan dipilih dengan memastikan kualitas dan kesegarannya, sementara madu memberikan
+            sentuhan manis yang alami tanpa terlalu berlebihan</p>
+    </section>
+
+    <section id="services">
+        <h2>Layanan Kami</h2>
+        <ul>
+            <li>Catering: Kami menawarkan catering untuk acara-acara khusus.</li>
+            <li>Pengiriman: Kami menawarkan pengiriman makanan ke tempat Anda.</li>
+        </ul>
+        <table border="3" width="50%" height="50%">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Deskripsi</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>Gucheez rasa pisang coklat</td>
+                    <td>Perpaduan antara nanas madu dengan pisang coklat yang lumer</td>
+                    <td>Rp 35.000</td>
+                </tr>
+                <tr>
+                    <td>Gucheez kombinasi 4 rasa</td>
+                    <td>Perpaduan 4 rasa: nanas madu, pisang coklat, pisang keju, coklat keju</td>
+                    <td>Rp 40.000</td>
+                </tr>
+                <tr>
+                    <td>Gucheez coklat keju</td>
+                    <td>Perpaduan nanas madu, keju, dan coklat lumer</td>
+                    <td>Rp 35.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="produk">
+        <h2>PRODUK KAMI</h2>
+        <p>
+            Gucheez adalah oleh-oleh khas Tegal yang menawarkan cita rasa otentik dan keunikan tersendiri. Dikenal
+            sebagai camilan yang lezat, Gucheez memiliki tekstur lembut, dipadu dengan keju
+            berkualitas yang kaya rasa. Camilan ini cocok sebagai teman santai atau untuk dijadikan buah tangan bagi
+            keluarga dan teman. </p>
+        <div class="product-cards">
+            <div class="product-card">
+                <img src="foto/coklat keju.jpeg" alt="Product 1">
+                <h3>GUcheez rasa Pisang Coklat</h3>
+                <p>Gucheez rasa pisang coklat adalah varian istimewa yang memadukan kelezatan pisang manis dan coklat
+                    lembut, menciptakan harmoni rasa yang menggugah selera.</p>
+            </div>
+            <div class="product-card">
+                <img src="foto/Kombinasi.jpeg" alt="Product 2">
+                <h3>GUcheez Kombinasi 4 Rasa</h3>
+                <p>Gucheez Kombinasi 4 Rasa adalah pilihan sempurna bagi para penikmat camilan yang ingin merasakan
+                    beragam sensasi dalam satu paket. Menghadirkan empat rasa favorit: nanas madu, pisang coklat,Full
+                    Keju, dan Kelapa.</p>
+            </div>
+            <div class="product-card">
+                <img src="foto/nanas madu.jpeg" alt="Product 3">
+                <h3>GUcheez rasa Nanas Madu</h3>
+                <p>Gucheez rasa nanas madu menghadirkan perpaduan rasa manis alami dari madu dengan kesegaran khas
+                    nanas. Setiap potong Gucheez rasa nanas madu memberikan kelezatan yang seimbang antara manis madu
+                    dan asam segar nanas, menciptakan pengalaman kuliner yang berbeda dari Tegal.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h3>Kontak Kami</h3>
+        <form>
+            <fieldset>
+                <label for="name">Nama</label>
+                <input type="text" id="name" value="Wisnu Maulana Akbar" required><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Masukan Email" required><br>
+                <label for="message">Pesan</label>
+                <textarea id="message" cols="30" rows="5" placeholder="Masukan pesan"></textarea><br>
+                <button type="submit">Kirim</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li>Nama bisnis: GUchezz</li>
+            <li>Babakan, RT.4/RW.3, Babakan, Tuwel, Kec. Bojong, Kabupaten Tegal, Jawa Tengah 52465</li>
+        </ul>
+        <a href="https://www.instagram.com/oleholehkhastegal" target="_blank">
+            <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+    </footer>
+</body>
+
+</html>
+<!-- wisnu -->
+<!-- wisnu -->

@@ -1,0 +1,259 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fdf6e3;
+  color: #5b5b5b;
+}
+
+/* Pemisah antar Konten */
+section {
+  padding: 50px 20px;
+  position: relative;
+}
+
+section:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 2px;
+  background-color: #d9a67b;
+  margin-top: 40px;
+}
+
+/* Header */
+.header {
+  background-color: #f4e1d2;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 2.5em;
+  color: #a0522d;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.header nav ul li {
+  margin: 0 15px;
+}
+
+.header nav ul li a {
+  color: #5b5b5b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header nav ul li a:hover {
+  color: #a0522d;
+}
+
+/* About Section */
+.about-section {
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2em;
+  color: #a0522d;
+}
+
+.about-section img {
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.about-section p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+/* Services Section */
+#services {
+  background-color: #fff0e1;
+  text-align: center;
+  padding: 100px ;
+}
+
+#services h2 {
+  font-size: 2em;
+  color: #a0522d;
+}
+
+#services ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#services ul li {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+/* Table */
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  border: 2px solid #a0522d;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #a0522d;
+}
+
+table th {
+  background-color: #f4e1d2;
+  color: #5b5b5b;
+  font-weight: bold;
+}
+
+/* Produk Section */
+#produk {
+  text-align: center;
+}
+
+#produk h2 {
+  font-size: 2em;
+  color: #a0522d;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.product-card {
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  font-size: 1.2em;
+  color: #a0522d;
+}
+
+.product-card p {
+  font-size: 0.95em;
+  color: #5b5b5b;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fff0e1;
+  text-align: center;
+}
+
+#contact h3 {
+  font-size: 2em;
+  color: #a0522d;
+  margin-bottom: 20px;
+}
+
+#contact form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fdf6e3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact label {
+  font-size: 1em;
+  color: #5b5b5b;
+}
+
+#contact input, #contact textarea {
+  padding: 10px;
+  border: 1px solid #d9a67b;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#contact button {
+  padding: 10px;
+  color: #fff;
+  background-color: #a0522d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#contact button:hover {
+  background-color: #5b5b5b;
+}
+
+/* Footer */
+footer {
+  background-color: #f4e1d2;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9em;
+  color: #5b5b5b;
+  margin-bottom: 10px;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: #a0522d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #5b5b5b;
+}
+
+/* wisnu */
+/* <!-- wisnu --> */
